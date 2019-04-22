@@ -1,0 +1,33 @@
+{
+	"name": "greenpeace/planet4-child-theme-greenland",
+	"description": "Child theme for the Greenland website of the Planet 4 Wordpress project",
+	"type":"wordpress-theme",
+	"minimum-stability" : "stable",
+	"authors": [
+		{
+			"name": "Greenpeace International",
+			"email": "planet4-group@greenpeace.org"
+		}
+	],
+	"license": "GPL-3.0+",
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "https://wpackagist.org"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/greenpeace/planet4-child-theme-greenland/issues",
+		"source": "https://github.com/greenpeace/planet4-child-theme-greenland"
+	},
+	"extra": {
+		"installer-paths": {
+			"../../plugins/{$name}/": [
+				"wpackagist-plugin/*",
+				"type:wordpress-plugin"
+			]
+		}
+	},
+	"require": {
+	}
+}
